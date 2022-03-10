@@ -1,0 +1,56 @@
+.headerNav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    border-bottom: 3px solid;
+    border-color: wheat;
+} 
+.fade {
+    opacity: 0;
+}
+
+.headerMenu {
+    display: flex;
+    position: absolute;
+    right: 25px;
+    align-self: flex-start;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: wheat;
+    margin-top: 10px;
+    height: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logoWrapper {
+    transition: transform 0.3s;
+}
+
+.logoWrapper:hover {
+    transform: rotate(1turn);
+    transition: transform 0.3s;
+}
+
+.headerTitle {
+    margin-left: 15px;
+    color: wheat;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    margin: 0
+}
